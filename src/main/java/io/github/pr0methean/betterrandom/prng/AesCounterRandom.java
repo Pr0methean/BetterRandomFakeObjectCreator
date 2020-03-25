@@ -11,7 +11,7 @@ import java.io.Serializable;
  * >the real AesCounterRandom</a>, but no fields or superclass. Used for testing readObjectNoData.
  */
 public class AesCounterRandom implements Serializable {
-  private static final long serialVersionUID = 5949778642428995210L;
+  private static final long serialVersionUID = 4808258824475143174L;
 
   public static void main(String[] args) throws IOException {
     try (ByteArrayOutputStream baos = new ByteArrayOutputStream();
